@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-poppop": "^1.5.0",
+    "react-responsive-modal": "^3.4.0",
+    "react-window-size": "^1.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
