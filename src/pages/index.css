@@ -54,6 +54,10 @@ button:hover {
     transform: scale(0);
   }
 
+#black {
+    color:black;
+}
+
 .container {
     transition: transform .4s; /* Animation */
     display: block;
@@ -75,7 +79,7 @@ button:hover {
 }
 
 .container .overlay .text{
-    color: purple;
+    color: white;
     font-size: 30px;
     position: absolute;
     top: 50%;
